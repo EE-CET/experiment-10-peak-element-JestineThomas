@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/PeakElement.java",
+      "run": "java -cp src PeakElement",
+      "input": "4\n5 10 20 15",
+      "output": "2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Example 2",
+      "setup": "javac src/PeakElement.java",
+      "run": "java -cp src PeakElement",
+      "input": "7\n10 20 15 2 23 64 67",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Peak at End (Ascending)",
+      "setup": "javac src/PeakElement.java",
+      "run": "java -cp src PeakElement",
+      "input": "5\n1 2 3 4 5",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Peak at Start (Descending)",
+      "setup": "javac src/PeakElement.java",
+      "run": "java -cp src PeakElement",
+      "input": "5\n5 4 3 2 1",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Single Element",
+      "setup": "javac src/PeakElement.java",
+      "run": "java -cp src PeakElement",
+      "input": "1\n10",
+      "output": "0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
